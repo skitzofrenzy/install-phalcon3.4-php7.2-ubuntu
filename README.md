@@ -44,7 +44,7 @@ bash
 git clone -b 3.4.x --single-branch https://github.com/phalcon/cphalcon.git
 ```
 
-## Navigate to the downloaded Phalcon source code directory and checkout the 3.4 tag using the following commands
+### 4. Navigate to the downloaded Phalcon source code directory and checkout the 3.4 tag using the following commands
 
 ```
 bash
