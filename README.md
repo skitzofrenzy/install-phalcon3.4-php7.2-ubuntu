@@ -32,12 +32,12 @@ git clone git://github.com/phalcon/cphalcon.git
 
 Once complete move to [Step#4]
 
-#### if you get the error below
+** if you get the error below **
 
 fatal: unable to connect to github.com:
 github.com[0: 140.82.113.3]: errno=Connection timed out
 
-#### use the https alt
+** use the https alt **
 
 ```
 bash
