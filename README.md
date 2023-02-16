@@ -14,11 +14,15 @@ If PHP 7.2 is not installed, you can install it using the following command:
 sudo apt-get install php7.2
 ```
 
+
+
 ### 2. Next, you need to install the Phalcon dependencies, which include the PHP development headers, gcc, and make. You can install these dependencies using the following command
 
 ```bash
 sudo apt-get install php7.2-dev gcc make
 ```
+
+
 
 ### 3. Download the Phalcon 3.4 source code from the official Phalcon GitHub repository using the following command
 
@@ -39,6 +43,8 @@ github.com[0: 140.82.113.3]: errno=Connection timed out
 git clone -b 3.4.x --single-branch https://github.com/phalcon/cphalcon.git
 ```
 
+
+
 ### 4. Navigate to the downloaded Phalcon source code directory and checkout the 3.4 tag using the following commands
 
 ```bash
@@ -52,17 +58,23 @@ git checkout v3.4.5
 cd cphalcon/build
 ```
 
+
+
 ### 5. Build the Phalcon extension using the following command
 
 ```bash
 sudo ./install
 ```
 
+
+
 ### 6. After the installation is complete, you need to enable the Phalcon extension in the PHP configuration. You can do this by creating a new phalcon.ini file in the PHP configuration directory
 
 ```bash
 sudo nano /etc/php/7.2/mods-available/phalcon.ini
 ```
+
+
 
 ### 7. Add the following line to the file
 
@@ -72,16 +84,23 @@ extension=phalcon.so
 
 Save and exit the file.
 
+
+
 ### 8. Finally, enable the Phalcon extension using the following command
 
 ```bash
 sudo phpenmod phalcon
 ```
 
+
+
 ### 9. Restart Apache or your web server to apply the changes
 
 ```bash
 sudo service apache2 restart
 ```
+
+
+
 
 **Phalcon should now be installed and enabled on your Ubuntu 18.04 system with PHP 7.2**
