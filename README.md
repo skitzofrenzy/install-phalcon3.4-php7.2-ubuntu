@@ -32,12 +32,12 @@ git clone git://github.com/phalcon/cphalcon.git
 
 Once complete move to [Step#4]
 
-### if you get the error below
+#### if you get the error below
 
 fatal: unable to connect to github.com:
 github.com[0: 140.82.113.3]: errno=Connection timed out
 
-### use the https alt
+#### use the https alt
 
 ```
 bash
@@ -52,7 +52,7 @@ cd cphalcon
 git checkout v3.4.5
 ```
 
-### if you used the https alt
+#### if you used the https alt
 ```
 bash
 cd cphalcon/build
@@ -95,4 +95,4 @@ bash
 sudo service apache2 restart
 ```
 
-### Phalcon should now be installed and enabled on your Ubuntu 18.04 system with PHP 7.2
+#### Phalcon should now be installed and enabled on your Ubuntu 18.04 system with PHP 7.2
