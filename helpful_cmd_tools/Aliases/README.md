@@ -10,4 +10,4 @@ Aliases can be defined in the user's `~/.bashrc` file, which is a script that ru
 
 
 ### Menu
-1. [Laravel](https://github.com/skitzofrenzy/ubuntu-setups/blob/f0f9b397bbd6d307ab1efae7af595107dc591de3/helpful_cmd_tools/Aliases/Aliases.sh)
+1. [Laravel](https://github.com/skitzofrenzy/ubuntu-setups/blob/8ce85413b1ea4551890f5cd5f49ba104e4951d63/helpful_cmd_tools/Aliases/laravel_sail_aliases.sh)
