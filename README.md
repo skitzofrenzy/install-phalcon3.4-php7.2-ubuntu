@@ -1,5 +1,5 @@
 # Walkthroughs on Ubuntu Setups
-![Ubuntu Logo](https://assets.ubuntu.com/v1/ff6a9a38-ubuntu-logo-2022.svg)
+![Ubuntu Logo](https://assets.ubuntu.com/v1/ff6a9a38-ubuntu-logo-2022.svg =250x)
 
 ### Menu
 1. [Setups](https://github.com/skitzofrenzy/ubuntu-setups/blob/d0709914b97fda78004e4937ff6fd617e8d34938/setups/README.md)
