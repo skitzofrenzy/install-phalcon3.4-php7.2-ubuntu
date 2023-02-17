@@ -1,7 +1,7 @@
 # Walkthroughs on Ubuntu Setups
-<div style="background-color: white; display: inline-block; padding: 10px;">
-    <img src="https://assets.ubuntu.com/v1/ff6a9a38-ubuntu-logo-2022.svg" width="400" height="250">
-</div>
+
+<img src="https://assets.ubuntu.com/v1/ff6a9a38-ubuntu-logo-2022.svg" width="400" height="250">
+
 ### Menu
 1. [Setups](https://github.com/skitzofrenzy/ubuntu-setups/blob/d0709914b97fda78004e4937ff6fd617e8d34938/setups/README.md)
    * [Setup Laravel with PHP 8.1](https://github.com/skitzofrenzy/ubuntu-setups/blob/7e5bbe32fc5d96f5d002c087d7f55106f225b289/setups/Setup%20Laravel%20with%20PHP%208.1.md)
