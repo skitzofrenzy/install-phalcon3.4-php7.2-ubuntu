@@ -81,6 +81,18 @@ alias sailpurge='./vendor/bin/sail down -volumes'
 
 alias saildir="./vendor/bin/sail"
 
+alias sailhelp='
+echo "Sail commands:" && 
+echo "- sailup: Start all Sail containers" && 
+echo "- saildown: Stop and remove all Sail containers" && 
+echo "- sailartisan: Run an Artisan command in a new container" && 
+echo "- sailcomposer: Run a Composer command in a new container" && 
+echo "- sailnpm: Run an NPM command in a new container" && 
+echo "- sailtinker: Open an interactive Tinker shell in a new container" && 
+echo "- sailshell: Open a Bash shell in a new container" && 
+echo "- saillogs: Show the logs for all the containers defined in your Sail configuration file" && 
+echo "- sailpurge: Stop and remove all the containers and volumes defined in your Sail configuration file" && 
+echo "- saildir: Alias to access Sail binary"'
 ####
 
 
@@ -121,6 +133,19 @@ alias ldev='npm run dev'
 # Compile front-end assets for production
 alias lprod='npm run prod'
 
+# shows all aliases
+alias lhelp='
+echo "lserv - Start the development server"; \
+echo "lctrl - Generate a new controller class"; \
+echo "lmod - Generate a new model class"; \
+echo "lmig - Generate a new migration file"; \
+echo "lrun - Run any pending database migrations"; \
+echo "lseed - Run any database seeders"; \
+echo "ltinker - Open an interactive shell to interact with models and database"; \
+echo "lcomp - Install application dependencies with Composer"; \
+echo "lnpm - Install application front-end dependencies with NPM"; \
+echo "ldev - Compile front-end assets for development"; \
+echo "lprod - Compile front-end assets for production";'
 ###
 
 
