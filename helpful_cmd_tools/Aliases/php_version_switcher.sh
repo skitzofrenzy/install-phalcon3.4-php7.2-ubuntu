@@ -51,20 +51,27 @@
 
 # Switch to php version of choice
 switch-php-version() {
+    # Set the path to the PHP binaries
     local php_path="/usr/bin/php"
+    # List all PHP versions installed on the system, excluding directories containing "dbg", "ize", "config"
     local php_versions=($(ls -1d ${php_path}* | grep -v "dbg\|ize\|config"))
+    # Get the number of available PHP versions
     local version_count=${#php_versions[@]}
 
+    # Display the available PHP versions to the user
     echo "Available PHP versions:"
     for ((i=0; i<$version_count; i++)); do
         echo "[$i] $(basename ${php_versions[$i]})"
     done
 
+    # Prompt the user to select a PHP version
     read -p "Enter the number corresponding to the PHP version you want to switch to: " version_num
 
+    # Check if the selected version number is within range
     if (( $version_num >= 0 && $version_num < $version_count )); then
+        # Use the "update-alternatives" command to switch the system's default PHP version
         sudo update-alternatives --set php ${php_versions[$version_num]}
-    
+
         # Restart Apache or Nginx if installed
         if [[ -x "$(command -v apache2)" ]]; then
             sudo systemctl restart apache2
@@ -73,9 +80,12 @@ switch-php-version() {
             sudo systemctl restart nginx
             echo "nginx reset successful"
         fi
+        # Display the new PHP version
         php -v
     else
+        # Display an error message if the selected version number is invalid
         echo "Invalid version number."
     fi
 }
+
 # This doc is copyable
