@@ -124,20 +124,4 @@ alias lprod='npm run prod'
 ###
 
 
-
-# Switch to php version of choice
-alias phpver='
-echo "Available PHP versions:";
-ls -1 /usr/local/php/;
-echo;
-read -p "Enter the PHP version you want to use: " version;
-if [ -d "/usr/local/php/$version/bin" ]; then
-    export PATH=/usr/local/php/$version/bin:$PATH;
-    php -v;
-    sudo systemctl restart apache2
-else
-    echo "PHP version $version not found";
-fi;'
-
-
 # This doc is copyable
